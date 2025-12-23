@@ -16,8 +16,12 @@
     sans-serif;
 }
 
-@media (max-width: 768px) {
-  body {
-    padding: 1rem;
-  }
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #b1aeae;
+  padding: .8rem;
 }

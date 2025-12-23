@@ -1,11 +1,11 @@
 .card {
   width: 50rem;
   height: 440px;
-  border: 1px solid #ccc;
   border-radius: 8px;
   padding: 3rem;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-  background-color: #d6e1e6;
+  background-color: #1e1d1d;
+  color: #cfcfcf;
   display: flex;
   gap: 20px;
   flex-direction: row;

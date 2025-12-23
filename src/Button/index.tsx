@@ -1,20 +1,9 @@
-import type {JSX} from "react";
+import styles from "./index.module.css";
 
-export default function Button(): JSX.Element {
+export default function Button({ label, url }: { label: string; url?: string }) {
   return (
-    <button
-      style={{
-        padding: "10px 20px",
-        backgroundColor: "#000",
-        color: "white",
-        border: "none",
-        borderRadius: "7px",
-        cursor: "pointer",
-        fontSize: "16px",
-        alignSelf: "flex-end",
-      }}
-    >
-      Comprar agora
+    <button className={styles.button} onClick={() => window.open(url, "_blank")}>
+      {label}
     </button>
   );
 }
